@@ -9,7 +9,7 @@ html {
     color: #555;
     font-weight: 300;
     font-size: 20px;
-    font-family: 'Lato', 'Arial', sans-serif;
+    /* font-family: fontPadrao, 'Arial', sans-serif; */
     text-rendering: optimizeLegibility;
 }
 
@@ -54,14 +54,14 @@ header {
 }
 
 .btn-full {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #737373;
+    border: 1px solid #737373;
     color: #fff;
 }
 
 .btn-ghost {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #737373;
+    color: #737373;
 }
 
 .btn:link, .btn:visited {
@@ -76,27 +76,27 @@ header {
 }
 
 .btn-full:link, .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #000000;
+    border: 1px solid #737373;
     color: #fff;
     margin-right: 15px; /* espaçamento entreos botões */
 }
 
 .btn-ghost:link, .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #737373;
+    color: #cfcfcf;
 }
 
 .btn:hover, .btn:active {
-    background-color: #e67e22;
+    background-color: #000000;
 }
 
 .btn-full:hover, .btn-full:active {
-    border: 1px solid #e67e22;
+    border: 1px solid #737373;
 }
 
 .btn-ghost:hover, .btn-ghost:active {
-    border: 1px solid #e67e22;
+    border: 1px solid #737373;
     color: #fff;
 }
 
@@ -104,6 +104,7 @@ header {
     height: 100px;
     width: auto;
     float: left;
+    margin-left: 20px;
     margin-top: 20px; /*colocar um espaçamento acima do logo para baixar ela */
 }
 
@@ -139,5 +140,5 @@ header {
 }
 
 .main-nav li a:link, .main-nav li a:visited {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #737373;
 }
