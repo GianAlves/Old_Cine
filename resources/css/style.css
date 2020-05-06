@@ -190,9 +190,9 @@ section {
     margin-left: 15%;
 }
 
-.box {
-    /* padding: 1%; */
-}
+/* .box {
+    padding: 1%;
+} */
 
 .box p {
     font-size: 90%;
@@ -201,5 +201,44 @@ section {
 
 .section-features .long-copy {
     margin-bottom: 30px;
+}
+
+.images-showcase {
+    list-style: none; /* Retira marcadores */
+    width: 100%; /* Lista agora ocupa toda largura da tela */
+}
+
+.images-showcase li {
+    display: block; /* Permite outros elementos ao lado */
+    float: left; /* Faz com que os elementos sejam colocados lado a lado */
+    width: 25%; /* Cada item da lista terá 25% de largura em relação a tela... 100/4  */
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    text-align: center;
+}
+
+.photo img {
+    opacity: 0.7; /* Deixa a imagem um pouco transparente */
+    width: 60%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: auto; /* Para não desfigurar a imagem */
+    transform: scale(1.15); /* Imagem aumenta em 15% */
+    /* Adiciona um período de transição quando alterado houver alteração da propriedade transform */
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.03); /* Escala da imagem com valor padrão */
+}
+
+.section-photos {
+    padding: 0;
 }
 
