@@ -242,3 +242,67 @@ section {
     padding: 0;
 }
 
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 0%;
+    border-radius: 7%;
+    background-color: #ffffff;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 0%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+    padding-right: 5%;
+}
+
+.step {
+    margin-bottom: 65px;
+    padding-left: 5%;
+}
+
+.step div {
+    color: #737373;
+    border: 2px solid #737373;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 30px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+    padding-left: 5%;
+}
+
+.step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.clearfix {
+    zoom:1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
