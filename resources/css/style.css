@@ -279,7 +279,7 @@ section {
     width: 55px;
     text-align: center;
     padding: 5px;
-    float: left;
+    /* float: left; */
     font-size: 150%;
     margin-right: 30px;
 }
@@ -305,4 +305,19 @@ section {
     display: block;
     height: 0;
     visibility: hidden;
+}
+
+.astros img {
+    height: 250px;
+}
+
+.astros h4::after {
+    display: block;
+    height: 2px;
+    background-color: #737373;
+    content: " ";
+    width: 150px;
+    margin: 0 left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
