@@ -71,6 +71,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Deixa a imagem fica no fundo, a imagem não acompanha a barara de rolagem*/
 }
 
 .hero-text-box {
@@ -307,11 +308,12 @@ section {
     visibility: hidden;
 }
 
-.astros img {
+.section-cities .astros img {
     height: 250px;
+    opacity: 0.8;
 }
 
-.astros h4::after {
+.section-cities .astros h4::after {
     display: block;
     height: 2px;
     background-color: #737373;
@@ -320,4 +322,36 @@ section {
     margin: 0 left;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(img/nome_img_hero_2.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; /* Deixa a imagem fica no fundo, a imagem não acompanha a barara de rolagem*/
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
