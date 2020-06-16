@@ -1,0 +1,13 @@
+{
+    "name": "Old Cine",
+    "short_name": "Old Cine",
+    "descreption": "Objetivo é apresentar um pouco sobre a arte do cinema.",
+    "start_url": "index.html" ,
+    "scope": ".",
+    "background_color": "#EEE",
+    "theme_color": "#4A148C",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "pt-BR"
+}
