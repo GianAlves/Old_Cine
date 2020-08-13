@@ -1,64 +1,289 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+    <link rel="manifest" href="manifest.json">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">
     <title>Old Cine</title>
+    <script src="swRegister.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="row">
                 <img src="resources/img/logo.png" alt="Logo" class="logo">
                 <ul class="main-nav">
-                    <li><a href="#">O que è um clássico?</a></li>
-                    <li><a href="#">Clássicos famosos</a></li>
-                    <li><a href="#">Faça parte desse universo</a></li>
+                    <li><a href="#classicos">Clássicos famosos</a></li>
+                    <li><a href="#app">Faça parte desse universo</a></li>
+                    <li><a href="#depoimento">Depoimento de Diretores Cults</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Viva a Arte, Viva o Cinema.</h1>
             <a class="btn btn-full" href="#criacaoFilme">Como criar um filme</a>
-            <a class="btn btn-ghost" href="#">Grandes referências do cinema</a>
+            <a class="btn btn-ghost" href="#atores">Grandes referências do cinema</a>
         </div>
     </header>
     <section id="criacaoFilme" class="section-features">
         <div class="row">
             <h2>Criação de um filme</h2>
             <p class="long-copy">
-                Na produção de um filme, atuam diversos profissionais em várias áreas, e todos contribuem para sua finalização. Algumas partes importantes na construção de um filme são:
+                Na produção de um filme, atuam diversos profissionais em várias áreas, e todos contribuem para sua
+                finalização. Algumas partes importantes na construção de um filme são:
             </p>
         </div>
         <div class="row">
             <div class="col span-1-of-4 box">
                 <ion-icon name="reader-outline"></ion-icon>
                 <h3>Roteiro</h3>
-                <p> Ele serve como um guia, durante a execução de uma produção. Todas as informações necessárias para que o filme possa ser feito provêm desse roteiro ou guia para a trama.
+                <p> Ele serve como um guia, durante a execução de uma produção. Todas as informações necessárias para
+                    que o filme possa ser feito provêm desse roteiro ou guia para a trama.
                 </p>
             </div>
             <div class="col span-1-of-4 box">
                 <ion-icon name="people-outline"></ion-icon>
                 <h3>Elenco</h3>
-                <p>Testes, escolhas e ação. O elenco escolhido será o responsável pela representação dos personagens.</p>
+                <p>Testes, escolhas e ação. O elenco escolhido será o responsável pela representação dos personagens.
+                </p>
             </div>
             <div class="col span-1-of-4 box">
                 <ion-icon name="videocam-outline"></ion-icon>
                 <h3>Filmagem</h3>
-                <p>Descobrir quais câmeras, localidades, estilo, iluminações, cenas, figurinos e sonorização serão escolhidos para a  filmagem específica. </p>
+                <p>Descobrir quais câmeras, localidades, estilo, iluminações, cenas, figurinos e sonorização serão
+                    escolhidos para a filmagem específica. </p>
             </div>
             <div class="col span-1-of-4 box">
                 <ion-icon name="color-wand-outline"></ion-icon>
                 <h3>Montagem</h3>
-                <p>Depois de conseguir todas as cenas e sonorizações necessárias, chega a hora de montar tudo adicionando musicas e efeitos necessários para completar o filme e fazer a mágia do cinema acontecer.</p>
+                <p>Depois de conseguir todas as cenas e sonorizações necessárias, chega a hora de montar tudo
+                    adicionando musicas e efeitos necessários para completar o filme e fazer a mágia do cinema
+                    acontecer.</p>
             </div>
         </div>
     </section>
+    <section id="classicos" class="section-photos">
+        <h2>Filmes Clássicos do cinema mundial</h2>
+        <ul class="images-showcase clearfix">
+            <li>
+                <figure class="photo"> <img src="resources/img/bons_companheiros.jpg" alt="Os Bons Companheiros"
+                        title="Os Bons Companheiros"></figure>
+            </li>
+            <li>
+                <figure class="photo"> <img src="resources/img/ditador.jpg" alt="O Grande Ditador"
+                    title="O Grande Ditador"></figure>
+            </li>
+            <li>
+                <figure class="photo"> <img src="resources/img/pulp_fiction.jpg" alt="Pulp Fiction"
+                        title="Pulp Fiction"></figure>
+            </li>
+            <li>
+                <figure class="photo"> <img src="resources/img/taxi_driver.jpg" alt="Taxi Driver" title="Taxi Driver">
+                </figure>
+            </li>
+        </ul>
+        <ul class="images-showcase clearfix">
+            <li>
+                <figure class="photo"> <img src="resources/img/odisseia_espaco.jpg" alt="2001: Uma odisseia no espaço"
+                        title="2001: Uma odisseia no espaço"></figure>
+            </li>
+            <li>
+                <figure class="photo"> <img src="resources/img/psicose.jpg" alt="Psicose" title="Psicose"></figure>
+            </li>
+            <li>
+                <figure class="photo"> <img src="resources/img/poderoso_chefao.jpg" alt="O Poderoso Chefão"
+                        title="O Poderoso Chefão"></figure>
+            </li>
+            <li>
+                <figure class="photo"> <img src="resources/img/sonho_liberdade.jpg" alt="Um Sonho de Liberdade"
+                        title="Um Sonho de Liberdade"></figure>
+            </li>
+        </ul>
+    </section>
+    <section id="app" class="steps">
+        <div class="row">
+            <h2>Esperando o que? &mdash; Bastam 3 passos</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="resources/img/app-screen.png" alt="Screen" class="app-screen">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="step">
+                    <div>1</div>
+                    <p>Baixe o nosso app!</p>
+                </div>
+                <div class="step">
+                    <div>2</div>
+                    <p>Selecione qual curso melhor se encaixa para você!</p>
+                </div>
+                <div class="step">
+                    <div>3</div>
+                    <p>Comece a assitir as aulas e aprender mais sobre o cinema.</p>
+                </div>
+                <a href="#" class="btn-app"><img src="resources/img/app-store-botao.png" alt="Botão App Store"></a>
+                <a href="#" class="btn-app"><img src="resources/img/app-android.png" alt="Botão Play Store"></a>
+            </div>
+        </div>
+    </section>
+    <section id="atores" class="section-cities">
+        <div class="row">
+            <h2>Grandes astros da história do cinema</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box astros">
+                <img src="resources/img/robert.jpg" alt="Robert De Niro">
+                <h3>Robert De Niro</h3>
+                <div>
+                    <h4>Atuações premiadas:</h4>
+                </div>
+                <div >
+                    * Touro Indomável
+                </div>
+                <div>
+                    * O Poderoso Chefão Parte II
+                </div>
+            </div>
 
+            <div class="col span-1-of-4 box astros">
+                <img src="resources/img/marlon.jpg" alt="Marlon Brando">
+                <h3>Marlon Brando</h3>
+                <div>
+                    <h4>Atuações premiadas:</h4>
+                </div>
+                <div >
+                    * O Poderoso Chefão
+                </div>
+                <div>
+                    * Sindicato de Ladrões
+                </div>
+            </div>
+            
+            <div class="col span-1-of-4 box astros">
+                <img src="resources/img/meryl.jpg" alt="Meryl Streep">
+                <h3>Meryl Streep</h3>
+                <div>
+                    <h4>Atuações premiadas:</h4>
+                </div>
+                <div >
+                    * Kramer vs. Kramer
+                </div>
+                <div>
+                    * A Escolha de Sophia
+                </div>
+                <div>
+                    * A Dama de Ferro
+                </div>
+            </div>
+            
+            <div class="col span-1-of-4 box astros">
+                <img src="resources/img/Katharine.jpg" alt="Katharine Hepburn">
+                <h3>Katharine Hepburn</h3>
+                <div>
+                    <h4>Atuações premiadas:</h4>
+                </div>
+                <div >
+                    * Manhã de Glória
+                </div>
+                <div>
+                    * Adivinha Quem Vem Jantar
+                </div>
+                <div >
+                    * O Leão no Inverno
+                </div>
+                <div>
+                    * Num Lago Dourado
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="depoimento" class="section-testimonials">
+        <div class="row">
+            <h2>Depoimento de grandes diretores</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Os filmes tocam nossos corações, 
+                    despertam nossa visão e mudam a forma como nós vemos as coisas. 
+                    Eles nos levam para lugares. Eles abrem portas e mentes.
+                    Filmes são a memória das nossas vidas. Precisamos mantê-los vivos.
+                    <cite>
+                        <img src="resources/img/martinscorsese.jpg" alt="Martin Scorsese">Martin Scorsese
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    A liberdade de um escritor, de um humorista e de um diretor está em ser honesto consigo mesmo. 
+                    Eu não me preocupo. O humor, por sua própria natureza, 
+                    é livre e sempre vai atentar contra o politicamente correto.
+                    <cite>
+                        <img src="resources/img/pedroAlmodovar.jpg" alt="Pedro Almodóvar">Pedro Almodóvar
+                    </cite>  
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Não me surpreendo quando as pessoas ficam surpresas. 
+                    Elas não assistiram a todos os filmes que eu vi e não estão entendiadas com filmes como eu estou. 
+                    Preciso ser diferente para a experiência de filmar valer a pena. 
+                    <cite>
+                        <img src="resources/img/quentinTarantino.jpg" alt="Quentin Tarantino">Quentin Tarantino
+                    </cite>           
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <!-- <li><a href="#">Início</a></li> -->
+                    <li><a href="#criacaoFilme">Etapas</a></li>
+                    <li><a href="#classicos">Clássicos</a></li>
+                    <li><a href="#app">App</a></li>
+                    <li><a href="#atores">Atores</a></li>
+                    <li><a href="#depoimento">Depoimentos</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-instagram" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-facebook" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-googleplus" name="logo-google"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-twitter" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2020 - Old Cine. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>

@@ -45,6 +45,7 @@ h1 {
 
 h2 {
     font-size: 180%;
+    color: rgb(151, 15, 15);
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
@@ -64,6 +65,7 @@ h2::after {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    color: rgb(151, 15, 15);
 }
 
 header {
@@ -71,6 +73,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Deixa a imagem fica no fundo, a imagem não acompanha a barara de rolagem*/
 }
 
 .hero-text-box {
@@ -141,8 +144,8 @@ header {
     height: 100px;
     width: auto;
     float: left;
-    margin-left: 20px;
     margin-top: 20px; /*colocar um espaçamento acima do logo para baixar ela */
+    opacity: 0.75;
 }
 
 .main-nav {
@@ -203,3 +206,234 @@ section {
     margin-bottom: 30px;
 }
 
+.section-features ion-icon {
+    color: rgb(151, 15, 15);
+}
+
+.images-showcase {
+    list-style: none; /* Retira marcadores */
+    width: 100%; /* Lista agora ocupa toda largura da tela */
+}
+
+.images-showcase li {
+    display: block; /* Permite outros elementos ao lado */
+    float: left; /* Faz com que os elementos sejam colocados lado a lado */
+    width: 25%; /* Cada item da lista terá 25% de largura em relação a tela... 100/4  */
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    text-align: center;
+}
+
+.photo img {
+    opacity: 0.7; /* Deixa a imagem um pouco transparente */
+    width: 60%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: auto; /* Para não desfigurar a imagem */
+    transform: scale(1.15); /* Imagem aumenta em 15% */
+    /* Adiciona um período de transição quando alterado houver alteração da propriedade transform */
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.03); /* Escala da imagem com valor padrão */
+}
+
+.section-photos {
+    padding: 0;
+}
+
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+    margin-top: 30px;
+    text-align: right;
+    padding-right: 0%;
+    border-radius: 7%;
+    background-color: #ffffff;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 0%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+    padding-right: 5%;
+}
+
+.step {
+    margin-bottom: 65px;
+    padding-left: 5%;
+}
+
+.step div {
+    color: rgb(151, 15, 15);
+    border: 2px solid rgb(151, 15, 15);
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    /* float: left; */
+    font-size: 150%;
+    margin-right: 30px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+    padding-left: 5%;
+}
+
+.step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.clearfix {
+    zoom:1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.section-cities .astros img {
+    height: 250px;
+    opacity: 0.8;
+}
+
+.section-cities .astros h4 {
+    color: rgb(151, 15, 15);
+}
+
+.section-cities .astros h4::after {
+    display: block;
+    height: 2px;
+    background-color: #737373;
+    content: " ";
+    width: 150px;
+    margin: 0 left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(img/nome_img_hero_2.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; /* Deixa a imagem fica no fundo, a imagem não acompanha a barara de rolagem*/
+}
+
+.section-testimonials h2 {
+    color: #fff;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+}
+
+blockquote::before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 35px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.social-links ion-icon {
+    font-size: 180%;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.social-links li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    transition: 0.3s;
+    color: rgb(151, 15, 15);
+}
+
+.logo-instagram,
+.logo-facebook,
+.logo-googleplus,
+.logo-twitter {
+    transition: color 0.3s;
+}
+
+.logo-instagram:hover,
+.logo-facebook:hover,
+.logo-googleplus:hover,
+.logo-twitter:hover {
+    color: rgb(151, 15, 15);
+}
+
+footer p {
+    color: #888;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
